@@ -3,7 +3,7 @@ BEGIN {
   $Text::Zilla::Role::File::Base::AUTHORITY = 'cpan:GETTY';
 }
 BEGIN {
-  $Text::Zilla::Role::File::Base::VERSION = '0.001';
+  $Text::Zilla::Role::File::Base::VERSION = '0.002';
 }
 # ABSTRACT: Minimum implementation for a file
 use Moose::Role;
@@ -22,7 +22,7 @@ Text::Zilla::Role::File::Base - Minimum implementation for a file
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

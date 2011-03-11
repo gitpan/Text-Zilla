@@ -3,18 +3,18 @@ BEGIN {
   $Text::Zilla::File::AUTHORITY = 'cpan:GETTY';
 }
 BEGIN {
-  $Text::Zilla::File::VERSION = '0.001';
+  $Text::Zilla::File::VERSION = '0.002';
 }
 # ABSTRACT: A base file
 use Text::Zilla;
-
-tzil_file;
 
 has content => (
 	is => 'rw',
 	isa => 'Str',
 	default => sub {""},
 );
+
+tzil_file;
 
 around BUILDARGS => sub {
 	my $orig  = shift;
@@ -27,8 +27,6 @@ around BUILDARGS => sub {
 	}
 };
 
-sub tzil_content { shift->content }
-
 1;
 __END__
 =pod
@@ -39,7 +37,7 @@ Text::Zilla::File - A base file
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

@@ -3,7 +3,7 @@ BEGIN {
   $Text::Zilla::Role::Dir::Stash::AUTHORITY = 'cpan:GETTY';
 }
 BEGIN {
-  $Text::Zilla::Role::Dir::Stash::VERSION = '0.001';
+  $Text::Zilla::Role::Dir::Stash::VERSION = '0.002';
 }
 # ABSTRACT: Directory which has a stash
 use Moose::Role;
@@ -44,7 +44,7 @@ Text::Zilla::Role::Dir::Stash - Directory which has a stash
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

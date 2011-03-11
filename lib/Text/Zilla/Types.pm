@@ -3,7 +3,7 @@ BEGIN {
   $Text::Zilla::Types::AUTHORITY = 'cpan:GETTY';
 }
 BEGIN {
-  $Text::Zilla::Types::VERSION = '0.001';
+  $Text::Zilla::Types::VERSION = '0.002';
 }
 # ABSTRACT: Type library for Text::Zilla
 
@@ -33,7 +33,7 @@ Text::Zilla::Types - Type library for Text::Zilla
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

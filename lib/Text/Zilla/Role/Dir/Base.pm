@@ -3,7 +3,7 @@ BEGIN {
   $Text::Zilla::Role::Dir::Base::AUTHORITY = 'cpan:GETTY';
 }
 BEGIN {
-  $Text::Zilla::Role::Dir::Base::VERSION = '0.001';
+  $Text::Zilla::Role::Dir::Base::VERSION = '0.002';
 }
 # ABSTRACT: Minimum implementation for a dir
 use Moose::Role;
@@ -22,7 +22,7 @@ Text::Zilla::Role::Dir::Base - Minimum implementation for a dir
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

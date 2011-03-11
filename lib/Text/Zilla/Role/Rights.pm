@@ -3,7 +3,7 @@ BEGIN {
   $Text::Zilla::Role::Rights::AUTHORITY = 'cpan:GETTY';
 }
 BEGIN {
-  $Text::Zilla::Role::Rights::VERSION = '0.001';
+  $Text::Zilla::Role::Rights::VERSION = '0.002';
 }
 # ABSTRACT: Role for the rights of a file
 use Moose::Role;
@@ -39,7 +39,7 @@ Text::Zilla::Role::Rights - Role for the rights of a file
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

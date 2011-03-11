@@ -3,7 +3,7 @@ BEGIN {
   $Text::Zilla::Role::Dir::AUTHORITY = 'cpan:GETTY';
 }
 BEGIN {
-  $Text::Zilla::Role::Dir::VERSION = '0.001';
+  $Text::Zilla::Role::Dir::VERSION = '0.002';
 }
 # ABSTRACT: Required role for all directories
 use Moose::Role;
@@ -95,7 +95,7 @@ Text::Zilla::Role::Dir - Required role for all directories
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 
