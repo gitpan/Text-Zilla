@@ -3,7 +3,7 @@ BEGIN {
   $Text::Zilla::Role::File::AUTHORITY = 'cpan:GETTY';
 }
 BEGIN {
-  $Text::Zilla::Role::File::VERSION = '0.002';
+  $Text::Zilla::Role::File::VERSION = '0.003';
 }
 # ABSTRACT: Required role for all files
 use Moose::Role;
@@ -34,7 +34,7 @@ Text::Zilla::Role::File - Required role for all files
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 AUTHOR
 

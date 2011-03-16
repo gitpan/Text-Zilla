@@ -3,7 +3,7 @@ BEGIN {
   $Text::Zilla::File::AUTHORITY = 'cpan:GETTY';
 }
 BEGIN {
-  $Text::Zilla::File::VERSION = '0.002';
+  $Text::Zilla::File::VERSION = '0.003';
 }
 # ABSTRACT: A base file
 use Text::Zilla;
@@ -37,7 +37,7 @@ Text::Zilla::File - A base file
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 AUTHOR
 

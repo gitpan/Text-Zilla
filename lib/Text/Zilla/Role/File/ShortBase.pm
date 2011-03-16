@@ -3,7 +3,7 @@ BEGIN {
   $Text::Zilla::Role::File::ShortBase::AUTHORITY = 'cpan:GETTY';
 }
 BEGIN {
-  $Text::Zilla::Role::File::ShortBase::VERSION = '0.002';
+  $Text::Zilla::Role::File::ShortBase::VERSION = '0.003';
 }
 # ABSTRACT: Minimum implementation for a file with shorter function names
 use Moose::Role;
@@ -28,7 +28,7 @@ Text::Zilla::Role::File::ShortBase - Minimum implementation for a file with shor
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 AUTHOR
 

@@ -1,15 +1,16 @@
-package Text::Zilla::Role::File::Base;
+package Text::Zilla::Role::File::Stash;
 BEGIN {
-  $Text::Zilla::Role::File::Base::AUTHORITY = 'cpan:GETTY';
+  $Text::Zilla::Role::File::Stash::AUTHORITY = 'cpan:GETTY';
 }
 BEGIN {
-  $Text::Zilla::Role::File::Base::VERSION = '0.003';
+  $Text::Zilla::Role::File::Stash::VERSION = '0.003';
 }
-# ABSTRACT: Minimum implementation for a file
+# ABSTRACT: File which has a stash
 use Moose::Role;
 
 with qw(
-	Text::Zilla::Role::File
+	Text::Zilla::Role::File::Base
+	Text::Zilla::Role::Stash
 );
 
 1;
@@ -18,7 +19,7 @@ __END__
 
 =head1 NAME
 
-Text::Zilla::Role::File::Base - Minimum implementation for a file
+Text::Zilla::Role::File::Stash - File which has a stash
 
 =head1 VERSION
 

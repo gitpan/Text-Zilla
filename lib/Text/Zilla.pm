@@ -3,7 +3,7 @@ BEGIN {
   $Text::Zilla::AUTHORITY = 'cpan:GETTY';
 }
 BEGIN {
-  $Text::Zilla::VERSION = '0.002';
+  $Text::Zilla::VERSION = '0.003';
 }
 # ABSTRACT: Generating files as easy as possible
 
@@ -57,7 +57,7 @@ Text::Zilla - Generating files as easy as possible
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 SYNOPSIS
 

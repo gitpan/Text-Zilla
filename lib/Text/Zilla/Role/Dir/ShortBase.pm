@@ -3,7 +3,7 @@ BEGIN {
   $Text::Zilla::Role::Dir::ShortBase::AUTHORITY = 'cpan:GETTY';
 }
 BEGIN {
-  $Text::Zilla::Role::Dir::ShortBase::VERSION = '0.002';
+  $Text::Zilla::Role::Dir::ShortBase::VERSION = '0.003';
 }
 # ABSTRACT: Minimum implementation for a dir with shorter function names
 use Moose::Role;
@@ -33,7 +33,7 @@ Text::Zilla::Role::Dir::ShortBase - Minimum implementation for a dir with shorte
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 AUTHOR
 

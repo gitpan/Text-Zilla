@@ -3,7 +3,7 @@ BEGIN {
   $Text::Zilla::Dir::AUTHORITY = 'cpan:GETTY';
 }
 BEGIN {
-  $Text::Zilla::Dir::VERSION = '0.002';
+  $Text::Zilla::Dir::VERSION = '0.003';
 }
 # ABSTRACT: A base directory container
 use Text::Zilla;
@@ -20,7 +20,7 @@ Text::Zilla::Dir - A base directory container
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 AUTHOR
 

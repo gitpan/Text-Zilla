@@ -3,7 +3,7 @@ BEGIN {
   $Text::Zilla::Role::MetaClass::AUTHORITY = 'cpan:GETTY';
 }
 BEGIN {
-  $Text::Zilla::Role::MetaClass::VERSION = '0.002';
+  $Text::Zilla::Role::MetaClass::VERSION = '0.003';
 }
 # ABSTRACT: I'm a little teapot, short and stout. Here is my handle, here is my spout
 use Moose::Role;
@@ -30,7 +30,7 @@ Text::Zilla::Role::MetaClass - I'm a little teapot, short and stout. Here is my 
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 AUTHOR
 
